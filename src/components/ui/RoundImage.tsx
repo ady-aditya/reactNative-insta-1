@@ -8,8 +8,6 @@ type RoundImageProps={
     seen:boolean
 }
 
-const IMAGE_SIZE = 80
-
 export default function RoundImage({imageUri, seen}:RoundImageProps) {
 
   let colorArray = ['#ffa500', 'red', "#7F00FF"];

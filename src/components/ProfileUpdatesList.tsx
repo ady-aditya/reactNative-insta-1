@@ -8,7 +8,7 @@ export default function ProfileUpdatesList() {
     
     <FlatList 
         data={PROFILE_UPDATES}
-        ListHeaderComponent={ProfileUpdatesIcon({name:"Your story", imageLocation:"https://images.tv9hindi.com/wp-content/uploads/2024/08/why-krishna-didnt-protect-abhimanyu.jpg", seen:true})}
+        ListHeaderComponent={ProfileUpdatesIcon({name:"Your story", imageLocation:"https://images.tv9hindi.com/wp-content/uploads/2024/08/why-krishna-didnt-protect-abhimanyu.jpg", seen:true, self:true})}
         horizontal
         showsHorizontalScrollIndicator={false}
         renderItem={({item})=><ProfileUpdatesIcon imageLocation={item.imageLocation} name={item.id} seen={item.updateSeen}/>}
