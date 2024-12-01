@@ -1,0 +1,32 @@
+export const PROFILE_UPDATES  =[
+    {
+        id:"bruce7wayne",
+        imageLocation:"https://static.wikia.nocookie.net/tomorrowverse/images/7/7a/Batman_001.png/revision/latest/scale-to-width-down/1000?cb=20240512034653",
+        updateSeen:false
+    },
+    {
+        id:"flash32",
+        imageLocation:"https://media.npr.org/assets/img/2023/06/14/rev-1-flsh-dct-0001_high_res_jpeg-db293ee8d3ace3093b3d3a7e1975649392b17699.jpeg?s=1100&c=85&f=webp",
+        updateSeen:true
+    },
+    {
+        id:"batKnight",
+        imageLocation:"https://upload.wikimedia.org/wikipedia/en/a/a4/Unmasked_Batman_DCEU.jpg",
+        updateSeen:false
+    },
+    {
+        id:"clarkmarthakent",
+        imageLocation:"https://static1.srcdn.com/wordpress/wp-content/uploads/2023/06/hen-cavill-clark-kent-smiling.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5",
+        updateSeen:false
+    },
+    {
+        id:"diannamamazon",
+        imageLocation:"https://variety.com/wp-content/uploads/2023/08/Screen-Shot-2023-08-10-at-3.43.28-PM.png",
+        updateSeen:false
+    },
+    {
+        id:"luthar.lex",
+        imageLocation:"https://static.wikia.nocookie.net/youngjustice/images/a/a7/Lex_Luthor.png/revision/latest?cb=20190726102242",
+        updateSeen:false
+    }
+] 
