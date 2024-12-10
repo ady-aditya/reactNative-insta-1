@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
-import RoundImage from './ui/RoundImage'
+import RoundImageGradientBorder from './ui/RoundImageGradientBorder'
+import Icon from 'react-native-vector-icons/Ionicons';
+import IconF from 'react-native-vector-icons/Entypo';
 
 type ProfileUpdatesIconProps = {
   name : string,
@@ -12,12 +14,13 @@ type ProfileUpdatesIconProps = {
 export default function ProfileUpdatesIcon({name, imageLocation, seen, self=false}:ProfileUpdatesIconProps){
   return (
       <View style={styles.profileUpdatesIconView}>
-        <RoundImage imageUri={imageLocation} seen={seen} />
+        <RoundImageGradientBorder imageUri={imageLocation} seen={seen} />
         
         <Text numberOfLines={1} style={styles.profileIdText}>{name}</Text>
         {self && <View style={styles.roundIcon}>
           <View style={styles.roundIconInternal}>
-            <Text style={styles.iconText}>+</Text>
+            <IconF name="plus" size={17} color={"white"}/>
+            {/* <Text style={styles.iconText}>+</Text> */}
           </View>
         </View>}
         
@@ -27,12 +30,13 @@ export default function ProfileUpdatesIcon({name, imageLocation, seen, self=fals
 
 const styles = StyleSheet.create({
     profileUpdatesIconView:{
-      margin:10,
+      marginHorizontal:7,
       alignSelf:"flex-start", 
     },
     profileIdText:{
+      marginTop:3,
         width:100,
-        fontSize:14,
+        fontSize:13,
         textAlign:"center"
     },
     roundIcon:{

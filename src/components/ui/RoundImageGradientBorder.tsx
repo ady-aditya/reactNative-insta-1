@@ -8,7 +8,7 @@ type RoundImageProps={
     seen:boolean
 }
 
-export default function RoundImage({imageUri, seen}:RoundImageProps) {
+export default function RoundImageGradientBorder({imageUri, seen}:RoundImageProps) {
 
   let colorArray = ['#ffa500', 'red', "#7F00FF"];
   if(seen){
@@ -29,23 +29,23 @@ const styles = StyleSheet.create({
     
     gradientContainer:{
         alignSelf:"flex-start",
-        height:100,
-        width:100,
+        height:90,
+        width:90,
         justifyContent:"center",
         alignItems:"center",
-        borderRadius:90    
+        borderRadius:900    
     },
     insideRound:{
         backgroundColor:"white",
-        height:93,
-        width:93,
+        height:84,
+        width:84,
         borderRadius:90,
         justifyContent:"center",
         alignItems:"center",
     },
     image:{
-        height:87,
-        width:87,
+        height:80,
+        width:80,
         borderRadius:90
     },
     

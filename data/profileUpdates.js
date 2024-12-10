@@ -1,11 +1,16 @@
 export const PROFILE_UPDATES  =[
     {
-        id:"bruce7wayne",
-        imageLocation:"https://static.wikia.nocookie.net/tomorrowverse/images/7/7a/Batman_001.png/revision/latest/scale-to-width-down/1000?cb=20240512034653",
+        id:"danispeagle",
+        imageLocation:"https://instagram.fslv1-4.fna.fbcdn.net/v/t51.2885-19/468442684_541504508782100_6691816905530891250_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fslv1-4.fna.fbcdn.net&_nc_cat=1&_nc_ohc=PLZ7pZvHVr8Q7kNvgG7mAkx&_nc_gid=3f13e6f4e9994a3d929977ba22e5842e&edm=AONqaaQBAAAA&ccb=7-5&oh=00_AYCUfuIN5pbMHilvD735QsjLLSBOKMCBn2GkXiA6DvN-wQ&oe=6757005A&_nc_sid=4e3341",
         updateSeen:false
     },
     {
-        id:"flash32",
+        id:"_virnakai_",
+        imageLocation:"https://instagram.fslv1-1.fna.fbcdn.net/v/t51.2885-19/11373694_1478336875795382_1712418199_a.jpg?stp=dst-jpg_tt6&_nc_ht=instagram.fslv1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=cW6Ui2JXIKwQ7kNvgFiGVI7&_nc_gid=303065520a8b4ef3971a94f337f7ddb2&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYAfHROpWJGIE7g02_VePCauNvoNzJiaESv-1wpQ47XYfg&oe=675B147D&_nc_sid=22de04",
+        updateSeen:false
+    },
+    {
+        id:"barry_allen",
         imageLocation:"https://media.npr.org/assets/img/2023/06/14/rev-1-flsh-dct-0001_high_res_jpeg-db293ee8d3ace3093b3d3a7e1975649392b17699.jpeg?s=1100&c=85&f=webp",
         updateSeen:true
     },
@@ -25,8 +30,23 @@ export const PROFILE_UPDATES  =[
         updateSeen:false
     },
     {
-        id:"luthar.lex",
-        imageLocation:"https://static.wikia.nocookie.net/youngjustice/images/a/a7/Lex_Luthor.png/revision/latest?cb=20190726102242",
+        id:"adventure_bob",
+        imageLocation:"https://instagram.fslv1-2.fna.fbcdn.net/v/t51.2885-19/469221339_1121845126123159_774964738257854768_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fslv1-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=LBQGXdamJ14Q7kNvgFEJQsZ&_nc_gid=ddf497a4f65c437fa1c6381e3634d07a&edm=AA5fTDYBAAAA&ccb=7-5&oh=00_AYBuYmPZChmHtDjXE3e_5wrkqlWPEVo9VGIV1Gy0TMXO4Q&oe=675B0847&_nc_sid=7edfe2",
+        updateSeen:false
+    },
+    {
+        id:"Tagderaho_12",
+        imageLocation:"https://instagram.fslv1-4.fna.fbcdn.net/v/t51.2885-19/458286221_1851804988644914_8771748313934372300_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fslv1-4.fna.fbcdn.net&_nc_cat=1&_nc_ohc=Vrt5TDpkRkEQ7kNvgF4JVPV&_nc_gid=bf773aecc859465ea128448c4b174331&edm=AA5fTDYBAAAA&ccb=7-5&oh=00_AYDtiNuAQ63ODHjnus_UI57V4dCaGEkXoZyQw64eiN34EQ&oe=675B2958&_nc_sid=7edfe2",
+        updateSeen:false
+    },
+    {
+        id:"bassi",
+        imageLocation:"https://upload.wikimedia.org/wikipedia/commons/1/19/Anubhav_Singh_Bassi_in_Surat_for_Bas_Kar_Bassi_%28cropped%29.jpg",
+        updateSeen:false
+    },
+    {
+        id:"travel_junkie",
+        imageLocation:"https://instagram.fslv1-1.fna.fbcdn.net/v/t51.2885-15/468152964_1516506489073382_461961012384747398_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYyODg1LmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fslv1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=G-NzSU-EUuEQ7kNvgEKUs1E&_nc_gid=845e793e560745ceae3fec9184ea8aa9&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MzUwOTE3Nzg2NjM3MTA0NDU3MQ%3D%3D.3-ccb7-5&oh=00_AYC2hE2wvaKKOnRv-QssMr8UwIxm9NMRD2OVexXaS1j50A&oe=675B3550&_nc_sid=7a9f4b",
         updateSeen:false
     }
 ] 
